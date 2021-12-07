@@ -39,7 +39,7 @@ func VRPFilms(wg *sync.WaitGroup, updateSite bool, knownScenes []string, out cha
 
 		// No release date anywhere, but we can approximate based on the wordpress date of the
 		// cover image. It's at least better than nothing.
-		//
+		// https://vrpfilms.com/movies
 		// https://vrpfilms.com/wp-content/uploads/2019/10/No-Boys-Just-Toys-Banner-1600x800.jpg
 		t := strings.Split(coverURL, "/")
 		tmpDate := fmt.Sprintf("%s-%s-01", t[5], t[6])
@@ -125,7 +125,7 @@ func VRPFilms(wg *sync.WaitGroup, updateSite bool, knownScenes []string, out cha
 		}
 	})
 
-	siteCollector.Visit("https://vrpfilms.com/vrp-movies")
+	siteCollector.Visit("https://vrpfilms.com/movies")
 
 	if updateSite {
 		updateSiteLastUpdate(scraperID)
@@ -134,6 +134,6 @@ func VRPFilms(wg *sync.WaitGroup, updateSite bool, knownScenes []string, out cha
 	return nil
 }
 
-func init() {
-	registerScraper("vrpfilms", "VRP Films", "https://vrpfilms.com/storage/settings/March2021/Z0krYIQBMwSJ4R1eCnv1.png", VRPFilms)
-}
+// func init() {
+// 	registerScraper("vrpfilms", "VRP Films", "https://vrpfilms.com/storage/settings/March2021/Z0krYIQBMwSJ4R1eCnv1.png", VRPFilms)
+// }

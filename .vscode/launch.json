@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Chrome",
+            "port": 9999,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+      {
+        "name": "Launch",
+        "type": "go",
+        "request": "launch", 
+        "mode": "debug",
+        "remotePath": "",
+        "program": "${workspaceFolder}",
+        "args": [], 
+        "env": {
+            "DEBUG":true,
+            "DEBUG_REQUESTS":true,
+            "DEBUG_SQL":true
+          },
+        "showLog": true
+      }
+    ]
+  }
