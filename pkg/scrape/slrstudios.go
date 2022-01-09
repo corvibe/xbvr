@@ -290,4 +290,8 @@ func init() {
 	addSLRScraper("vrpfilms", "VRP Films", "VRP Films", "https://vrpfilms.com/storage/settings/March2021/Z0krYIQBMwSJ4R1eCnv1.png")
 	addSLRScraper("ddfnetworkvr", "DDFNetworkVR", "DDFNetworkVR", "https://pbs.twimg.com/profile_images/1083417183722434560/Ur5xIhqG_200x200.jpg")
 	addSLRScraper("babykxtten", "Babykxtten", "Babykxtten", "https://www.sexlikereal.com/s/refactor/images/favicons/android-icon-192x192.png")
+	addSLRScraper("fuckpassvr", "FuckPassVR", "FuckPassVR", "https://cdn-vr.sexlikereal.com/images/studio_creatives/logotypes/1/352/logo_crop_1635153994.png")
+	addSLRScraper("sensesvrporn", "SensesVRporn", "SensesVRporn", "https://cdn-vr.sexlikereal.com/images/studio_creatives/logotypes/1/281/logo_crop_1628150671.png")
+	addSLRScraper("taboovr", "TabooVR", "TabooVR", "https://cdn-vr.sexlikereal.com/images/studio_creatives/logotypes/1/346/logo_crop_1637164502.png")
+	addSLRScraper("dezyred", "Dezyred", "Dezyred", "https://cdn-vr.sexlikereal.com/images/studio_creatives/logotypes/1/356/logo_crop_1636053912.png")
 }
