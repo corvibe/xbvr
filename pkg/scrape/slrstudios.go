@@ -59,7 +59,7 @@ func SexLikeReal(wg *sync.WaitGroup, updateSite bool, knownScenes []string, out 
 
 		// Synopsis
 		sc.Synopsis = strings.TrimSpace(
-			e.DOM.Find(`div#tabs-about > div.u-mt--three > div.u-mb--four`).First().Text())
+			e.DOM.Find(`div#tabs-about > div > div.u-px--four > div.u-wh`).First().Text())
 
 		// Skipping some very generic and useless tags
 		skiptags := map[string]bool{
@@ -236,6 +236,7 @@ func init() {
 	addSLRScraper("burningangelvr", "BurningAngelVR", "BurningAngelVR", "https://mcdn.vrporn.com/files/20170830191746/burningangel-icon-vr-porn-studio-vrporn.com-virtual-reality.png")
 	addSLRScraper("cumtoon", "Cumtoon", "Cumtoon", "https://www.sexlikereal.com/s/images/content/sexlikereal.png")
 	addSLRScraper("covert-japan", "CovertJapan", "CovertJapan", "https://cdn-vr.sexlikereal.com/images/studio_creatives/logotypes/1/221/logo_crop_1607605022.png")
+	addSLRScraper("ddfnetworkvr", "DDFNetworkVR", "DDFNetworkVR", "http://pbs.twimg.com/profile_images/1083417183722434560/Ur5xIhqG_200x200.jpg")
 	addSLRScraper("deepinsex", "DeepInSex", "DeepInSex", "https://cdn-vr.sexlikereal.com/images/studio_creatives/logotypes/1/266/logo_crop_1610126420.png")
 	addSLRScraper("emilybloom", "EmilyBloom", "Emily Bloom", "https://i.imgur.com/LxYzAQX.png")
 	addSLRScraper("ellielouisevr", "EllieLouiseVR", "EllieLouiseVR", "https://cdn-vr.sexlikereal.com/images/studio_creatives/logotypes/1/265/logo_crop_1607603680.png")
@@ -280,6 +281,7 @@ func init() {
 	addSLRScraper("vrextasy", "VReXtasy", "VReXtasy", "https://www.sexlikereal.com/s/refactor/images/favicons/android-icon-192x192.png")
 	addSLRScraper("vr-fan-service", "VRFanService", "VRFanService", "https://cdn-vr.sexlikereal.com/images/studio_creatives/logotypes/1/153/logo_crop_1619422412.png")
 	addSLRScraper("vrfirsttimer", "VRFirstTimer", "VRFirstTimer", "https://mcdn.vrporn.com/files/20200511115233/VRFirstTimers_Logo.jpg")
+	addSLRScraper("vrpfilms", "VRPFilms", "VRPFilms", "https://vrpfilms.com/storage/settings/March2021/Z0krYIQBMwSJ4R1eCnv1.png")
 	addSLRScraper("vrpornjack", "VRPornJack", "VRPornJack", "https://mcdn.vrporn.com/files/20210330121852/VRPORNJACK_Logo-400x400.png")
 	addSLRScraper("vrpussyvision", "VRpussyVision", "VRpussyVision", "https://mcdn.vrporn.com/files/20180313160830/vrpussyvision-square-banner.png")
 	addSLRScraper("vrsexperts", "VRSexperts", "VRSexperts", "https://mcdn.vrporn.com/files/20190812141431/vrsexpertslogo2.jpg")
