@@ -18,19 +18,10 @@ require (
 	github.com/dustin/go-humanize v1.0.0
 	github.com/emicklei/go-restful v2.15.0+incompatible
 	github.com/emicklei/go-restful-openapi v1.4.1
-<<<<<<< HEAD
-	github.com/gammazero/nexus/v3 v3.0.3
-	github.com/getlantern/golog v0.0.0-20201105130739-9586b8bde3a9 // indirect
-	github.com/getlantern/systray v1.1.0
-	github.com/go-openapi/spec v0.19.15
-	github.com/go-test/deep v1.0.7
-	github.com/gobwas/glob v0.2.3 // indirect
-=======
 	github.com/gammazero/nexus/v3 v3.0.4
 	github.com/getlantern/systray v1.1.0
 	github.com/go-openapi/spec v0.20.4
 	github.com/go-test/deep v1.0.8
->>>>>>> 17817d7afb910fa82e4dad5ff0bc2dbb82b66350
 	github.com/gocolly/colly v1.2.0
 	github.com/gorilla/mux v1.8.0
 	github.com/gowww/log v1.0.0
@@ -42,13 +33,7 @@ require (
 	github.com/lomik/go-whisper v0.0.0-20170919072952-744ab80ef70d
 	github.com/lucasb-eyer/go-colorful v1.2.0
 	github.com/marcsauter/single v0.0.0-20201009143647-9f8d81240be2
-<<<<<<< HEAD
-	github.com/markphelps/optional v0.7.0
-	github.com/mattn/go-colorable v0.1.1 // indirect
-	github.com/mattn/go-isatty v0.0.7 // indirect
-=======
 	github.com/markphelps/optional v0.9.0
->>>>>>> 17817d7afb910fa82e4dad5ff0bc2dbb82b66350
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible
 	github.com/mholt/archiver v3.1.1+incompatible
 	github.com/mozillazg/go-slugify v0.2.0
@@ -56,15 +41,9 @@ require (
 	github.com/nleeper/goment v0.0.0-20191101041843-559ff168fc12
 	github.com/peterbourgon/diskv v2.0.1+incompatible
 	github.com/pkg/errors v0.9.1
-<<<<<<< HEAD
-	github.com/posthog/posthog-go v0.0.0-20200525173953-e46dc8e6b89b
-	github.com/putdotio/go-putio/putio v0.0.0-20200123120452-16d982cac2b8
-	github.com/robertkrimen/otto v0.0.0-20200922221731-ef014fd054ac
-=======
 	github.com/posthog/posthog-go v0.0.0-20211028072449-93c17c49e2b0
 	github.com/putdotio/go-putio v1.6.0
 	github.com/robertkrimen/otto v0.0.0-20211024170158-b87d35c0b86f
->>>>>>> 17817d7afb910fa82e4dad5ff0bc2dbb82b66350
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/rs/cors v1.8.2
 	github.com/satori/go.uuid v0.0.0-20180103174451-36e9d2ebbde5
@@ -73,23 +52,12 @@ require (
 	github.com/thoas/go-funk v0.9.1
 	github.com/tidwall/gjson v1.12.1
 	github.com/x-cray/logrus-prefixed-formatter v0.5.2
-<<<<<<< HEAD
-	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
-	github.com/xo/dburl v0.0.0-20200910011426-652e0d5720a3
-	github.com/xtgo/uuid v0.0.0-20140804021211-a0b114877d4c // indirect
-	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83
-	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
-	golang.org/x/oauth2 v0.0.0-20210220000619-9bb904979d93
-	golang.org/x/sys v0.0.0-20210228012217-479acdf4ea46
-	golang.org/x/text v0.3.4
-=======
 	github.com/xo/dburl v0.9.0
 	golang.org/x/crypto v0.0.0-20211215153901-e495a2d5b3d3
 	golang.org/x/net v0.0.0-20220107192237-5cfca573fb4d
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	golang.org/x/sys v0.0.0-20220110181412-a018aaa089fe
 	golang.org/x/text v0.3.7
->>>>>>> 17817d7afb910fa82e4dad5ff0bc2dbb82b66350
 	gopkg.in/gormigrate.v1 v1.6.0
 	gopkg.in/resty.v1 v1.12.0
 	willnorris.com/go/imageproxy v0.11.2
