@@ -298,4 +298,7 @@ func init() {
 	addSLRScraper("sensesvrporn", "SensesVRporn", "SensesVRporn", "https://cdn-vr.sexlikereal.com/images/studio_creatives/logotypes/1/281/logo_crop_1628150671.png")
 	addSLRScraper("taboovr", "TabooVR", "TabooVR", "https://cdn-vr.sexlikereal.com/images/studio_creatives/logotypes/1/346/logo_crop_1637164502.png")
 	addSLRScraper("dezyred", "Dezyred", "Dezyred", "https://cdn-vr.sexlikereal.com/images/studio_creatives/logotypes/1/356/logo_crop_1636053912.png")
+	addSLRScraper("virtual-papi", "Virtual Papi", "Virtual Papi", "https://cdn-vr.sexlikereal.com/images/studio_creatives/logotypes/1/381/logo_crop_1648046257.png")
+	addSLRScraper("lustyvr", "LustyVR", "LustyVR", "https://cdn-vr.sexlikereal.com/images/studio_creatives/logotypes/1/371/logo_crop_1644057581.png")
+	addSLRScraper("kinkygirlsberlin", "KinkyGirlsBerlin", "KinkyGirlsBerlin", "https://www.sexlikereal.com/s/refactor/images/favicons/android-icon-192x192.png")
 }

@@ -65,18 +65,7 @@
           </div>
         </div>
       </div>
-      <div class="column is-multiline is-one-third">
-        <h3 class="title">{{$t('Custom scene')}}</h3>
-        <div class="card">
-          <div class="card-content content">
-            <h5 class="title">Manual entry</h5>
-            <b-field grouped>
-              <b-input v-model="customSceneTitle" placeholder="Scene title" type="search"></b-input>
-            </b-field>
-          </div>
-        </div>
-      </div>
-      
+
       <div class="column is-multiline is-one-third">
         <h3 class="title">{{$t('TPDB scraper')}}</h3>
         <div class="card">
