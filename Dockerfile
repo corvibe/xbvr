@@ -1,7 +1,7 @@
 FROM node:16 as build-env
 
 ### Install Go ###
-ENV GO_VERSION=1.17.4 \
+ENV GO_VERSION=1.19.2 \
     GOPATH=$HOME/go-packages \
     GOROOT=$HOME/go
 ENV PATH=$GOROOT/bin:$GOPATH/bin:$PATH
